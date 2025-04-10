@@ -1,0 +1,23 @@
+[2025-04-08T15:19:45.139+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: minio_pipeline_dag.summarize_results manual__2025-04-08T15:19:36.333989+00:00 [queued]>
+[2025-04-08T15:19:45.145+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: minio_pipeline_dag.summarize_results manual__2025-04-08T15:19:36.333989+00:00 [queued]>
+[2025-04-08T15:19:45.145+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2025-04-08T15:19:45.156+0000] {taskinstance.py:1380} INFO - Executing <Task(_PythonDecoratedOperator): summarize_results> on 2025-04-08 15:19:36.333989+00:00
+[2025-04-08T15:19:45.162+0000] {standard_task_runner.py:57} INFO - Started process 115 to run task
+[2025-04-08T15:19:45.165+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'minio_pipeline_dag', 'summarize_results', 'manual__2025-04-08T15:19:36.333989+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/app.py', '--cfg-path', '/tmp/tmpztjgv5gq']
+[2025-04-08T15:19:45.168+0000] {standard_task_runner.py:85} INFO - Job 16: Subtask summarize_results
+[2025-04-08T15:19:45.202+0000] {task_command.py:415} INFO - Running <TaskInstance: minio_pipeline_dag.summarize_results manual__2025-04-08T15:19:36.333989+00:00 [running]> on host 76981ec8580e
+[2025-04-08T15:19:45.276+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_team' AIRFLOW_CTX_DAG_ID='minio_pipeline_dag' AIRFLOW_CTX_TASK_ID='summarize_results' AIRFLOW_CTX_EXECUTION_DATE='2025-04-08T15:19:36.333989+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-08T15:19:36.333989+00:00'
+[2025-04-08T15:19:45.277+0000] {logging_mixin.py:151} INFO - ==================================================
+[2025-04-08T15:19:45.277+0000] {logging_mixin.py:151} INFO - ETL Pipeline Execution Summary
+[2025-04-08T15:19:45.277+0000] {logging_mixin.py:151} INFO - ==================================================
+[2025-04-08T15:19:45.277+0000] {logging_mixin.py:151} INFO - Orders data:
+[2025-04-08T15:19:45.277+0000] {logging_mixin.py:151} INFO -   - Local path: ./data/staging/orders_20250408151943.csv
+[2025-04-08T15:19:45.277+0000] {logging_mixin.py:151} INFO -   - MinIO path: data-pipeline/orders/orders_20250408151943.csv
+[2025-04-08T15:19:45.277+0000] {logging_mixin.py:151} INFO - Logs data:
+[2025-04-08T15:19:45.277+0000] {logging_mixin.py:151} INFO -   - Local path: ./data/staging/logs_20250408151943.json
+[2025-04-08T15:19:45.277+0000] {logging_mixin.py:151} INFO -   - MinIO path: data-pipeline/logs/logs_20250408151943.json
+[2025-04-08T15:19:45.278+0000] {logging_mixin.py:151} INFO - ==================================================
+[2025-04-08T15:19:45.278+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-04-08T15:19:45.287+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=minio_pipeline_dag, task_id=summarize_results, execution_date=20250408T151936, start_date=20250408T151945, end_date=20250408T151945
+[2025-04-08T15:19:45.337+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-04-08T15:19:45.350+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

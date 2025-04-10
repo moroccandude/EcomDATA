@@ -1,0 +1,16 @@
+[2025-04-10T23:01:00.759+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: minio_pipeline_dag.transform_using_nifi manual__2025-04-10T22:49:17.263474+00:00 [queued]>
+[2025-04-10T23:01:00.776+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: minio_pipeline_dag.transform_using_nifi manual__2025-04-10T22:49:17.263474+00:00 [queued]>
+[2025-04-10T23:01:00.777+0000] {taskinstance.py:1359} INFO - Starting attempt 5 of 5
+[2025-04-10T23:01:00.800+0000] {taskinstance.py:1380} INFO - Executing <Task(_PythonDecoratedOperator): transform_using_nifi> on 2025-04-10 22:49:17.263474+00:00
+[2025-04-10T23:01:00.812+0000] {standard_task_runner.py:57} INFO - Started process 636 to run task
+[2025-04-10T23:01:00.818+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'minio_pipeline_dag', 'transform_using_nifi', 'manual__2025-04-10T22:49:17.263474+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/app.py', '--cfg-path', '/tmp/tmpr82zi6fp']
+[2025-04-10T23:01:00.822+0000] {standard_task_runner.py:85} INFO - Job 33: Subtask transform_using_nifi
+[2025-04-10T23:01:00.900+0000] {task_command.py:415} INFO - Running <TaskInstance: minio_pipeline_dag.transform_using_nifi manual__2025-04-10T22:49:17.263474+00:00 [running]> on host 6181896f0aec
+[2025-04-10T23:01:01.019+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_team' AIRFLOW_CTX_DAG_ID='minio_pipeline_dag' AIRFLOW_CTX_TASK_ID='transform_using_nifi' AIRFLOW_CTX_EXECUTION_DATE='2025-04-10T22:49:17.263474+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-10T22:49:17.263474+00:00'
+[2025-04-10T23:01:01.021+0000] {logging_mixin.py:151} INFO - Connecting to NiFi at: https://nifi:8443/nifi-api/flow/process-groups/21c8e227-0196-1000-55b1-efeba7bbe5dc/run-status
+[2025-04-10T23:01:01.047+0000] {logging_mixin.py:151} INFO - Failed to start NiFi processor group. Status code: 400
+[2025-04-10T23:01:01.048+0000] {logging_mixin.py:151} INFO - Response: 
+[2025-04-10T23:01:01.048+0000] {python.py:194} INFO - Done. Returned value was: False
+[2025-04-10T23:01:01.069+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=minio_pipeline_dag, task_id=transform_using_nifi, execution_date=20250410T224917, start_date=20250410T230100, end_date=20250410T230101
+[2025-04-10T23:01:01.111+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-04-10T23:01:01.143+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

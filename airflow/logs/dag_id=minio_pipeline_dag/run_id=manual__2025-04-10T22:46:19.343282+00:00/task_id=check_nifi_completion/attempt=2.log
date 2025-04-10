@@ -1,0 +1,32 @@
+[2025-04-10T22:57:19.117+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: minio_pipeline_dag.check_nifi_completion manual__2025-04-10T22:46:19.343282+00:00 [queued]>
+[2025-04-10T22:57:19.123+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: minio_pipeline_dag.check_nifi_completion manual__2025-04-10T22:46:19.343282+00:00 [queued]>
+[2025-04-10T22:57:19.123+0000] {taskinstance.py:1359} INFO - Starting attempt 2 of 2
+[2025-04-10T22:57:19.131+0000] {taskinstance.py:1380} INFO - Executing <Task(_PythonDecoratedOperator): check_nifi_completion> on 2025-04-10 22:46:19.343282+00:00
+[2025-04-10T22:57:19.135+0000] {standard_task_runner.py:57} INFO - Started process 584 to run task
+[2025-04-10T22:57:19.138+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'minio_pipeline_dag', 'check_nifi_completion', 'manual__2025-04-10T22:46:19.343282+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/app.py', '--cfg-path', '/tmp/tmpe_2yg7d2']
+[2025-04-10T22:57:19.139+0000] {standard_task_runner.py:85} INFO - Job 30: Subtask check_nifi_completion
+[2025-04-10T22:57:19.168+0000] {task_command.py:415} INFO - Running <TaskInstance: minio_pipeline_dag.check_nifi_completion manual__2025-04-10T22:46:19.343282+00:00 [running]> on host 6181896f0aec
+[2025-04-10T22:57:19.232+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_team' AIRFLOW_CTX_DAG_ID='minio_pipeline_dag' AIRFLOW_CTX_TASK_ID='check_nifi_completion' AIRFLOW_CTX_EXECUTION_DATE='2025-04-10T22:46:19.343282+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-10T22:46:19.343282+00:00'
+[2025-04-10T22:57:19.253+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:1056: InsecureRequestWarning: Unverified HTTPS request is being made to host 'nifi'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  warnings.warn(
+
+[2025-04-10T22:57:19.292+0000] {logging_mixin.py:151} INFO - Failed to check NiFi processor group status. Status code: 400
+[2025-04-10T22:57:19.293+0000] {logging_mixin.py:151} INFO - Response: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+<title>Error 400 Invalid SNI</title>
+</head>
+<body>
+<h2>HTTP ERROR 400 Invalid SNI</h2>
+<table>
+<tr><th>URI:</th><td>https://nifi:8443/nifi-api/flow/process-groups/21c8e227-0196-1000-55b1-efeba7bbe5dc/status</td></tr>
+<tr><th>STATUS:</th><td>400</td></tr>
+<tr><th>MESSAGE:</th><td>Invalid SNI</td></tr>
+</table>
+
+</body>
+</html>
+[2025-04-10T22:57:19.293+0000] {python.py:194} INFO - Done. Returned value was: False
+[2025-04-10T22:57:19.318+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=minio_pipeline_dag, task_id=check_nifi_completion, execution_date=20250410T224619, start_date=20250410T225719, end_date=20250410T225719
+[2025-04-10T22:57:19.349+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-04-10T22:57:19.365+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

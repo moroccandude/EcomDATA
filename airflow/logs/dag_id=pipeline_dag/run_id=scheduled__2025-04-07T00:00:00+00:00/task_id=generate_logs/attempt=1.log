@@ -1,0 +1,48 @@
+[2025-04-08T13:12:46.478+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_dag.generate_logs scheduled__2025-04-07T00:00:00+00:00 [queued]>
+[2025-04-08T13:12:46.486+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_dag.generate_logs scheduled__2025-04-07T00:00:00+00:00 [queued]>
+[2025-04-08T13:12:46.487+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2025-04-08T13:12:46.500+0000] {taskinstance.py:1380} INFO - Executing <Task(_PythonDecoratedOperator): generate_logs> on 2025-04-07 00:00:00+00:00
+[2025-04-08T13:12:46.507+0000] {standard_task_runner.py:57} INFO - Started process 2103 to run task
+[2025-04-08T13:12:46.510+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'pipeline_dag', 'generate_logs', 'scheduled__2025-04-07T00:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/app.py', '--cfg-path', '/tmp/tmpu1sxq_el']
+[2025-04-08T13:12:46.513+0000] {standard_task_runner.py:85} INFO - Job 10: Subtask generate_logs
+[2025-04-08T13:12:46.558+0000] {task_command.py:415} INFO - Running <TaskInstance: pipeline_dag.generate_logs scheduled__2025-04-07T00:00:00+00:00 [running]> on host 9606c2e609ee
+[2025-04-08T13:12:46.647+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_team' AIRFLOW_CTX_DAG_ID='pipeline_dag' AIRFLOW_CTX_TASK_ID='generate_logs' AIRFLOW_CTX_EXECUTION_DATE='2025-04-07T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-07T00:00:00+00:00'
+[2025-04-08T13:12:46.687+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 221, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/app.py", line 108, in generate_logs
+    with open(output_file, "w") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './staging/logs_20250408131246.json'
+[2025-04-08T13:12:46.696+0000] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=pipeline_dag, task_id=generate_logs, execution_date=20250407T000000, start_date=20250408T131246, end_date=20250408T131246
+[2025-04-08T13:12:46.706+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 10 for task generate_logs ([Errno 2] No such file or directory: './staging/logs_20250408131246.json'; 2103)
+[2025-04-08T13:12:46.722+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-04-08T13:12:46.738+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-08T13:26:09.574+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_dag.generate_logs scheduled__2025-04-07T00:00:00+00:00 [queued]>
+[2025-04-08T13:26:09.581+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_dag.generate_logs scheduled__2025-04-07T00:00:00+00:00 [queued]>
+[2025-04-08T13:26:09.582+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2025-04-08T13:26:09.595+0000] {taskinstance.py:1380} INFO - Executing <Task(_PythonDecoratedOperator): generate_logs> on 2025-04-07 00:00:00+00:00
+[2025-04-08T13:26:09.604+0000] {standard_task_runner.py:57} INFO - Started process 85 to run task
+[2025-04-08T13:26:09.607+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'pipeline_dag', 'generate_logs', 'scheduled__2025-04-07T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/app.py', '--cfg-path', '/tmp/tmpxm24n80k']
+[2025-04-08T13:26:09.609+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask generate_logs
+[2025-04-08T13:26:09.654+0000] {task_command.py:415} INFO - Running <TaskInstance: pipeline_dag.generate_logs scheduled__2025-04-07T00:00:00+00:00 [running]> on host 768c22852ba1
+[2025-04-08T13:26:09.735+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_team' AIRFLOW_CTX_DAG_ID='pipeline_dag' AIRFLOW_CTX_TASK_ID='generate_logs' AIRFLOW_CTX_EXECUTION_DATE='2025-04-07T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-07T00:00:00+00:00'
+[2025-04-08T13:26:09.782+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 221, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/app.py", line 108, in generate_logs
+    with open(output_file, "w") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './staging/logs_20250408132609.json'
+[2025-04-08T13:26:09.792+0000] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=pipeline_dag, task_id=generate_logs, execution_date=20250407T000000, start_date=20250408T132609, end_date=20250408T132609
+[2025-04-08T13:26:09.803+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 4 for task generate_logs ([Errno 2] No such file or directory: './staging/logs_20250408132609.json'; 85)
+[2025-04-08T13:26:09.819+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-04-08T13:26:09.834+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

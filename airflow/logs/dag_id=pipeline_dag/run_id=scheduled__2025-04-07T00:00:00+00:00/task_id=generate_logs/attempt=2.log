@@ -1,0 +1,37 @@
+[2025-04-08T13:17:48.248+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_dag.generate_logs scheduled__2025-04-07T00:00:00+00:00 [queued]>
+[2025-04-08T13:17:48.265+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_dag.generate_logs scheduled__2025-04-07T00:00:00+00:00 [queued]>
+[2025-04-08T13:17:48.266+0000] {taskinstance.py:1359} INFO - Starting attempt 2 of 2
+[2025-04-08T13:17:48.287+0000] {taskinstance.py:1380} INFO - Executing <Task(_PythonDecoratedOperator): generate_logs> on 2025-04-07 00:00:00+00:00
+[2025-04-08T13:17:48.297+0000] {standard_task_runner.py:57} INFO - Started process 2190 to run task
+[2025-04-08T13:17:48.301+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'pipeline_dag', 'generate_logs', 'scheduled__2025-04-07T00:00:00+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/app.py', '--cfg-path', '/tmp/tmp67pafiv4']
+[2025-04-08T13:17:48.304+0000] {standard_task_runner.py:85} INFO - Job 14: Subtask generate_logs
+[2025-04-08T13:17:48.370+0000] {task_command.py:415} INFO - Running <TaskInstance: pipeline_dag.generate_logs scheduled__2025-04-07T00:00:00+00:00 [running]> on host cabbc97445d7
+[2025-04-08T13:17:48.504+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_team' AIRFLOW_CTX_DAG_ID='pipeline_dag' AIRFLOW_CTX_TASK_ID='generate_logs' AIRFLOW_CTX_EXECUTION_DATE='2025-04-07T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-07T00:00:00+00:00'
+[2025-04-08T13:17:48.612+0000] {python.py:194} INFO - Done. Returned value was: ./staging/logs_20250408131748.json
+[2025-04-08T13:17:48.655+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=pipeline_dag, task_id=generate_logs, execution_date=20250407T000000, start_date=20250408T131748, end_date=20250408T131748
+[2025-04-08T13:17:48.713+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-04-08T13:17:48.730+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-08T13:31:11.257+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_dag.generate_logs scheduled__2025-04-07T00:00:00+00:00 [queued]>
+[2025-04-08T13:31:11.264+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_dag.generate_logs scheduled__2025-04-07T00:00:00+00:00 [queued]>
+[2025-04-08T13:31:11.264+0000] {taskinstance.py:1359} INFO - Starting attempt 2 of 2
+[2025-04-08T13:31:11.275+0000] {taskinstance.py:1380} INFO - Executing <Task(_PythonDecoratedOperator): generate_logs> on 2025-04-07 00:00:00+00:00
+[2025-04-08T13:31:11.281+0000] {standard_task_runner.py:57} INFO - Started process 158 to run task
+[2025-04-08T13:31:11.284+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'pipeline_dag', 'generate_logs', 'scheduled__2025-04-07T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/app.py', '--cfg-path', '/tmp/tmpoc0h7fn_']
+[2025-04-08T13:31:11.286+0000] {standard_task_runner.py:85} INFO - Job 5: Subtask generate_logs
+[2025-04-08T13:31:11.323+0000] {task_command.py:415} INFO - Running <TaskInstance: pipeline_dag.generate_logs scheduled__2025-04-07T00:00:00+00:00 [running]> on host 768c22852ba1
+[2025-04-08T13:31:11.400+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_team' AIRFLOW_CTX_DAG_ID='pipeline_dag' AIRFLOW_CTX_TASK_ID='generate_logs' AIRFLOW_CTX_EXECUTION_DATE='2025-04-07T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-07T00:00:00+00:00'
+[2025-04-08T13:31:11.444+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 221, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/app.py", line 108, in generate_logs
+    with open(output_file, "w") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './staging/logs_20250408133111.json'
+[2025-04-08T13:31:11.451+0000] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=pipeline_dag, task_id=generate_logs, execution_date=20250407T000000, start_date=20250408T133111, end_date=20250408T133111
+[2025-04-08T13:31:11.461+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 5 for task generate_logs ([Errno 2] No such file or directory: './staging/logs_20250408133111.json'; 158)
+[2025-04-08T13:31:11.496+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-04-08T13:31:11.510+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

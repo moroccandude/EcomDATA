@@ -1,0 +1,24 @@
+[2025-04-08T12:14:09.926+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_Dag.task2 scheduled__2025-04-07T00:00:00+00:00 [queued]>
+[2025-04-08T12:14:09.943+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_Dag.task2 scheduled__2025-04-07T00:00:00+00:00 [queued]>
+[2025-04-08T12:14:09.943+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2025-04-08T12:14:09.966+0000] {taskinstance.py:1380} INFO - Executing <Task(_PythonDecoratedOperator): task2> on 2025-04-07 00:00:00+00:00
+[2025-04-08T12:14:09.975+0000] {standard_task_runner.py:57} INFO - Started process 1641 to run task
+[2025-04-08T12:14:09.981+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'pipeline_Dag', 'task2', 'scheduled__2025-04-07T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/app.py', '--cfg-path', '/tmp/tmphqpz4nhy']
+[2025-04-08T12:14:09.986+0000] {standard_task_runner.py:85} INFO - Job 5: Subtask task2
+[2025-04-08T12:14:10.066+0000] {task_command.py:415} INFO - Running <TaskInstance: pipeline_Dag.task2 scheduled__2025-04-07T00:00:00+00:00 [running]> on host cabbc97445d7
+[2025-04-08T12:14:10.231+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pipeline_Dag' AIRFLOW_CTX_TASK_ID='task2' AIRFLOW_CTX_EXECUTION_DATE='2025-04-07T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-07T00:00:00+00:00'
+[2025-04-08T12:14:10.234+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 221, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/app.py", line 15, in task2
+    task1_result = ti.xcom_pull(task_ids='task1')
+AttributeError: 'str' object has no attribute 'xcom_pull'
+[2025-04-08T12:14:10.253+0000] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=pipeline_Dag, task_id=task2, execution_date=20250407T000000, start_date=20250408T121409, end_date=20250408T121410
+[2025-04-08T12:14:10.278+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 5 for task task2 ('str' object has no attribute 'xcom_pull'; 1641)
+[2025-04-08T12:14:10.312+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-04-08T12:14:10.356+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check
