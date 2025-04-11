@@ -1,0 +1,16 @@
+[2025-04-10T15:24:51.654+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: minio_pipeline_dag.create_dir scheduled__2025-04-09T00:00:00+00:00 [queued]>
+[2025-04-10T15:24:51.670+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: minio_pipeline_dag.create_dir scheduled__2025-04-09T00:00:00+00:00 [queued]>
+[2025-04-10T15:24:51.670+0000] {taskinstance.py:1359} INFO - Starting attempt 2 of 2
+[2025-04-10T15:24:51.690+0000] {taskinstance.py:1380} INFO - Executing <Task(_PythonDecoratedOperator): create_dir> on 2025-04-09 00:00:00+00:00
+[2025-04-10T15:24:51.699+0000] {standard_task_runner.py:57} INFO - Started process 84 to run task
+[2025-04-10T15:24:51.705+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'minio_pipeline_dag', 'create_dir', 'scheduled__2025-04-09T00:00:00+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/app.py', '--cfg-path', '/tmp/tmpfs1utkqi']
+[2025-04-10T15:24:51.710+0000] {standard_task_runner.py:85} INFO - Job 48: Subtask create_dir
+[2025-04-10T15:24:51.782+0000] {task_command.py:415} INFO - Running <TaskInstance: minio_pipeline_dag.create_dir scheduled__2025-04-09T00:00:00+00:00 [running]> on host bd293ddc73e1
+[2025-04-10T15:24:51.907+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_team' AIRFLOW_CTX_DAG_ID='minio_pipeline_dag' AIRFLOW_CTX_TASK_ID='create_dir' AIRFLOW_CTX_EXECUTION_DATE='2025-04-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-09T00:00:00+00:00'
+[2025-04-10T15:24:51.909+0000] {app.py:39} INFO - Pipeline DAG started
+[2025-04-10T15:24:51.919+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-04-10T15:24:51.927+0000] {logging_mixin.py:151} INFO - Working Directory: /opt/***
+[2025-04-10T15:24:51.928+0000] {python.py:194} INFO - Done. Returned value was: ./data/staging
+[2025-04-10T15:24:51.961+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=minio_pipeline_dag, task_id=create_dir, execution_date=20250409T000000, start_date=20250410T152451, end_date=20250410T152451
+[2025-04-10T15:24:51.996+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-04-10T15:24:52.040+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

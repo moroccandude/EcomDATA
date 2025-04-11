@@ -1,0 +1,1202 @@
+[
+    {
+        "event_id": "5244fe46-3d7c-4bee-9b68-6dcf038e83c5",
+        "user_id": "b84bcd79-d900-49a4-b2e9-4f43fc09cfee",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.789965"
+    },
+    {
+        "event_id": "d18de8e9-3049-4099-b183-44b9347e1c34",
+        "user_id": "66be3c10-44d6-48ab-a0bf-5de3282236e1",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790000"
+    },
+    {
+        "event_id": "99d4d27e-7723-4357-9669-3c70f3548816",
+        "user_id": "d37d5e5e-1d15-4baa-8b04-ef7d855de88b",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790015"
+    },
+    {
+        "event_id": "38fe7e76-1528-447f-90b5-72be0572a1e3",
+        "user_id": "1c698da2-b25c-41ac-8b7c-591775b02aa0",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790030"
+    },
+    {
+        "event_id": "174e53e2-ebb4-4d6b-8f06-f17154154527",
+        "user_id": "2f730a22-b7f8-4ec7-a4df-f4879ecb6d9c",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.790045"
+    },
+    {
+        "event_id": "bc2a3f66-5ec9-4d13-88b6-d6f6132c1116",
+        "user_id": "1b520785-d679-41db-bfc6-c7b32a9993f3",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790060"
+    },
+    {
+        "event_id": "1eaf1a8a-8080-4e9a-998d-3e562f5e9812",
+        "user_id": "12400019-84e9-4ee5-a7c9-fc3aecd47546",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790075"
+    },
+    {
+        "event_id": "b04c7ea7-cf4f-4d8f-b241-a44716c4badd",
+        "user_id": "de6be451-c3a0-48cd-8290-475c2942f67e",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790090"
+    },
+    {
+        "event_id": "799fe2f5-6314-4602-b787-bf866929f0dc",
+        "user_id": "cf308b45-d35d-40eb-97ff-8cfb007ab2a9",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790107"
+    },
+    {
+        "event_id": "a24de95d-d3ec-4843-9956-ae2b0959dd38",
+        "user_id": "9a983349-27eb-42b1-89bc-554fdc65ef9e",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790124"
+    },
+    {
+        "event_id": "f7614268-1bbd-4b84-b2ed-de8944b357fb",
+        "user_id": "78f28168-9e99-4fa7-8fe1-438f1bf286cd",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790140"
+    },
+    {
+        "event_id": "2228b828-b078-4006-9ba4-625c0df7ae6c",
+        "user_id": "354068a0-42a3-4df8-ae29-b635008a0677",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790156"
+    },
+    {
+        "event_id": "dbfaf9d7-5e89-4a27-99c7-76f8ce196f2c",
+        "user_id": "f74b62ca-d67e-4c98-9c09-1b99e12760dc",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790171"
+    },
+    {
+        "event_id": "26764cbc-0357-4da7-bebe-9a433cfa358c",
+        "user_id": "235bce71-61e7-4721-abba-7e22b912d9e4",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790185"
+    },
+    {
+        "event_id": "3438323c-2c09-472a-825c-a0bbcda82b65",
+        "user_id": "dd47048d-b4a4-4714-bbd2-c8fea60abaed",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790200"
+    },
+    {
+        "event_id": "aef088a5-4b0a-4b99-92eb-bb7815624237",
+        "user_id": "f72c017b-69dc-4b3b-8aa0-f5a493522e2c",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.790216"
+    },
+    {
+        "event_id": "6dff13a9-2f5b-47f1-a1aa-f8ef6b5271cc",
+        "user_id": "9b6f43ca-c56a-4013-bf5b-7f576bbec850",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790231"
+    },
+    {
+        "event_id": "72912738-bf56-48d0-b886-0c5344a62ea0",
+        "user_id": "81963c84-bc48-48b6-9c8c-9d393b876325",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.790246"
+    },
+    {
+        "event_id": "ff56ec8c-941b-464e-b6e1-1b07df8048d2",
+        "user_id": "ed9be4af-f65b-4928-b755-7488953d1fa9",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790263"
+    },
+    {
+        "event_id": "b7296aef-ca8a-44e5-83ce-be33d2360b5e",
+        "user_id": "0e493f5a-41e5-4552-9aff-36442237e356",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790280"
+    },
+    {
+        "event_id": "52695226-6f5e-4f6e-8072-ff47e2a484c9",
+        "user_id": "ee571161-a495-400a-875c-3ca9e6f0820b",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790295"
+    },
+    {
+        "event_id": "787382b3-12b7-42e4-a687-30159d0e93cb",
+        "user_id": "08d872cc-c401-44ff-b106-bda5ebd421da",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790310"
+    },
+    {
+        "event_id": "5e019700-bdb1-4ed0-95b5-54061aa5830c",
+        "user_id": "133c7336-ba59-488e-b171-e79f5fd1d04d",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790324"
+    },
+    {
+        "event_id": "8640a3f0-da0b-4e03-a05c-753b0b163fe8",
+        "user_id": "cf873d3d-754a-4e06-895a-9bb405dee81d",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790339"
+    },
+    {
+        "event_id": "c03d4c7f-2a3f-4629-8a92-3e9eb3382d89",
+        "user_id": "b958b355-4c9b-4b24-bc36-d7c04f644920",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790353"
+    },
+    {
+        "event_id": "be64a65a-fdce-4848-a114-312c37a66969",
+        "user_id": "d2dbabf2-2a9b-4444-9c09-beb6c00a9057",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790367"
+    },
+    {
+        "event_id": "404ca4b3-0485-4f86-81c8-cf954969d31d",
+        "user_id": "ee805f75-0d90-4cd2-a6eb-5f2ca5dff2ed",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.790382"
+    },
+    {
+        "event_id": "fa730850-b55a-439e-af17-bf11224570c1",
+        "user_id": "788058ff-bac0-45d6-9c16-54a12c721e3b",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790396"
+    },
+    {
+        "event_id": "da7473b3-0bc0-4bb0-9840-080da3dd5faf",
+        "user_id": "7f924540-0181-409b-89e6-13e6aa7076b5",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790411"
+    },
+    {
+        "event_id": "de105175-e5f2-46d6-b6a0-5aa84cd545b2",
+        "user_id": "e9e1f687-8035-4c41-8560-e41667ced618",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790425"
+    },
+    {
+        "event_id": "5282a177-eeff-4c93-b8aa-b4eb03d558ba",
+        "user_id": "9bc86381-f265-45c2-9ae1-2ab2cd5bda8f",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790439"
+    },
+    {
+        "event_id": "f85eaadb-bc21-4781-a148-046ccdaf0c2a",
+        "user_id": "cb0e4e46-73a3-4149-96f4-d5bc689a348a",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.790454"
+    },
+    {
+        "event_id": "8680b789-3793-4e93-bb03-48f2161d79aa",
+        "user_id": "98a53042-33b9-4536-b47c-fb5293f0e93f",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790470"
+    },
+    {
+        "event_id": "6162d16d-fe7e-4b43-a121-4efdb87cedde",
+        "user_id": "7f53d2db-e22c-47fd-8591-92e73b2a356b",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.790486"
+    },
+    {
+        "event_id": "0b5aaddb-661f-4f47-a50e-75aba24f323b",
+        "user_id": "d978cbfe-0696-46c1-931c-3cd1374c0828",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790500"
+    },
+    {
+        "event_id": "baa18a72-4b1c-47db-aa60-74beb1e3eef8",
+        "user_id": "32a63364-6c75-46c5-b774-da473a61195f",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790515"
+    },
+    {
+        "event_id": "7fb03025-8714-4407-8532-25e63756db95",
+        "user_id": "cd347623-e596-4bdd-ba54-3ec92d6014b5",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790530"
+    },
+    {
+        "event_id": "5d255e1f-7939-4ec0-8204-7903a86da39a",
+        "user_id": "3ca1e0a4-9882-41b7-96bf-d7238096fa31",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790544"
+    },
+    {
+        "event_id": "59a5fc5a-2166-4db8-b578-c290f0091317",
+        "user_id": "a96740d8-7789-48a1-80ef-b9495b9c5146",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790559"
+    },
+    {
+        "event_id": "1a8f725c-889d-43d5-a42f-e29a759ad6c7",
+        "user_id": "d90925c3-b94d-4c7d-a3ee-b19ff6588f23",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.790575"
+    },
+    {
+        "event_id": "8cf6cb3e-1129-4df2-903c-6b3f90f4f592",
+        "user_id": "759651c3-7291-4c28-8883-22c519d3f444",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790590"
+    },
+    {
+        "event_id": "782740c9-15dd-47ed-8ed2-bda5292074b7",
+        "user_id": "374f277d-71dc-403e-957a-bdbfe2923d6f",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790605"
+    },
+    {
+        "event_id": "a6910937-0008-4e87-886d-73cedde3b28d",
+        "user_id": "58aa1ece-bcfd-4d52-93d0-a69687325d43",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790619"
+    },
+    {
+        "event_id": "3a699968-8421-4281-b1e6-8f4b5c519ae1",
+        "user_id": "ead849a5-80d5-4705-bedb-3e0862eb690c",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790634"
+    },
+    {
+        "event_id": "590d92e5-8977-4373-8f9b-34c9800d764a",
+        "user_id": "21a49011-ae5a-4ca7-98b4-ce389750f1ec",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790648"
+    },
+    {
+        "event_id": "d76bad8d-4306-491f-8c40-92b10302a453",
+        "user_id": "b6b1acbf-a9f6-4b88-a7c3-daea97b24c27",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790663"
+    },
+    {
+        "event_id": "7c7611e8-b606-42c4-aba1-ae3fdb48e03c",
+        "user_id": "421d9235-6e30-48e3-9043-f41db4b32ed8",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790677"
+    },
+    {
+        "event_id": "27db41c3-cf1b-4579-bf92-edf98178add1",
+        "user_id": "8bc74f41-3460-4674-923a-226e3e2a6c91",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.790691"
+    },
+    {
+        "event_id": "9eb506f8-0ea2-4e50-a107-d45fbda81418",
+        "user_id": "9909fdfb-a2cd-4ac9-bd14-a41f156d6ff6",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.790706"
+    },
+    {
+        "event_id": "a45beadc-f4a3-473e-adb3-6e6e8b2f9c07",
+        "user_id": "d98bf337-d290-4fe8-a386-1d7d837a7ce8",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.790720"
+    },
+    {
+        "event_id": "58015e81-aba4-4331-9089-656c96ef4a94",
+        "user_id": "fa230a4e-9432-4398-8bfc-280300175814",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.790734"
+    },
+    {
+        "event_id": "65cb99ef-657f-453d-a798-a30494c9c0cc",
+        "user_id": "509e367b-f759-4104-af5f-51b223a4ab4e",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790749"
+    },
+    {
+        "event_id": "6651ce40-851e-4224-88a8-125e06f67137",
+        "user_id": "bf0f5fba-ce8c-4a7d-a7d3-3dc23a3cade6",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.790768"
+    },
+    {
+        "event_id": "a679c40b-ab14-41e8-a670-8554e55bbca2",
+        "user_id": "441df2fa-5376-4417-920b-b736d6f51468",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.790786"
+    },
+    {
+        "event_id": "1885879e-f045-49f7-8eb0-79e95990af46",
+        "user_id": "eef3b4c6-d762-46ed-a2f9-63d9dec1bef6",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790804"
+    },
+    {
+        "event_id": "f825265b-f8e4-4cd4-9b30-e0dbb300ed74",
+        "user_id": "d680d6cd-a251-4c4f-a699-e6bc8bcb82a1",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790822"
+    },
+    {
+        "event_id": "14e1213e-e95e-48b0-b7da-311642238a2b",
+        "user_id": "9837245b-e8ad-4964-9661-4e4620222e95",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790836"
+    },
+    {
+        "event_id": "51d623fa-b8ec-419f-9c8d-ec90f13d7f9c",
+        "user_id": "cc31922b-0e7f-4916-8575-2f4e0e668508",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790850"
+    },
+    {
+        "event_id": "f5cd7fb2-e0ae-4925-b245-cefca52c86b9",
+        "user_id": "fe4af354-c87d-4485-b3de-712ac12e65e5",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790869"
+    },
+    {
+        "event_id": "46bc24b3-abf6-4676-9732-4d8842216913",
+        "user_id": "1c9b043b-bc4a-4a86-a140-7ac3cc39dc8e",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790883"
+    },
+    {
+        "event_id": "4c37e0c5-f753-4401-8d3d-790e65064d91",
+        "user_id": "1db76dc0-2462-4de9-8714-0caaa73b8fa1",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790900"
+    },
+    {
+        "event_id": "b1bbae6b-da1e-4cc5-9f7f-1adf06b1ec39",
+        "user_id": "8d49696f-a27f-4b44-b982-a880d1fc3f5c",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.790915"
+    },
+    {
+        "event_id": "8c9709b4-2301-4a1a-872d-2bd066b1b7d6",
+        "user_id": "e916f79e-4f82-46ab-ab13-7ec12ff7fd01",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790930"
+    },
+    {
+        "event_id": "6fcc1ac1-14ca-4765-b310-1837fe6d6a61",
+        "user_id": "8d012059-ce09-4f1c-b2a6-8392e5416886",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790945"
+    },
+    {
+        "event_id": "e814ab96-77bc-4051-a4e1-b62a9f36e38c",
+        "user_id": "cea5ffbe-e3f3-4f53-9b88-d205140b1fd5",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.790959"
+    },
+    {
+        "event_id": "3194ee1f-1bb2-4273-a1ff-507c7db8ab0f",
+        "user_id": "525b1867-8ebd-4d7e-8a9a-2cc00099c3b1",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.790974"
+    },
+    {
+        "event_id": "1a4b921a-d436-4875-8c6c-93c63cc0217f",
+        "user_id": "620bc6f3-b205-4c4b-a935-ce9c43143eb5",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.790989"
+    },
+    {
+        "event_id": "8d188bb9-a086-4129-98de-b512bbd15bc4",
+        "user_id": "b5f25f57-f0e3-4b53-a34f-6ba8808a2f29",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791003"
+    },
+    {
+        "event_id": "a45ab712-a13e-44c7-a3c9-5473a305a0cb",
+        "user_id": "a6b1c7fd-a464-490f-96e8-660df23e3f5a",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791017"
+    },
+    {
+        "event_id": "dea18b0d-f614-4f97-9f39-b22b6c1c2d81",
+        "user_id": "820efd00-d37f-4a04-9f58-4dd51c7d7a4f",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791032"
+    },
+    {
+        "event_id": "31fe9675-4209-43a6-b7c0-c89802868e6f",
+        "user_id": "ae6d361b-956b-4e31-adcc-51970dec1b3e",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791046"
+    },
+    {
+        "event_id": "6692a793-21ae-4b70-baee-763c4f83464d",
+        "user_id": "46299256-a2bf-4bb9-a639-3a92633ffb41",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791060"
+    },
+    {
+        "event_id": "ece57b98-91c2-48e5-bd72-66d54db18928",
+        "user_id": "cd2e107c-60b6-498e-8c58-fea68ec7be87",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791075"
+    },
+    {
+        "event_id": "637be50c-ea61-404a-9d8f-9055e2e6faf2",
+        "user_id": "693818ad-5c40-48e7-8259-2111a55b050a",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791090"
+    },
+    {
+        "event_id": "c8fd5d3b-5f1f-4ab1-b850-4fac12ed0c17",
+        "user_id": "62593c6f-4212-4203-8724-2a4f29711222",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791104"
+    },
+    {
+        "event_id": "2531cb91-5d3e-4969-b9d4-2cc83f16a17d",
+        "user_id": "df376bdd-7d4d-4767-a207-530a82780099",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791118"
+    },
+    {
+        "event_id": "93d99955-7e25-44ce-978c-7c8a29803132",
+        "user_id": "5eeee038-a3ca-4fc0-893d-c215d65befdd",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791132"
+    },
+    {
+        "event_id": "a882b908-6247-4031-a323-a0ba51316d40",
+        "user_id": "63544cf0-cc58-4545-9303-7cac74052b66",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791147"
+    },
+    {
+        "event_id": "957d5e4f-a6fe-4c41-bdb5-1f705fa2aff7",
+        "user_id": "a8f01278-a1cc-4987-a20f-57a96e565a2e",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791163"
+    },
+    {
+        "event_id": "2ae53c3a-53a7-4eea-9a4c-a682ab1c455e",
+        "user_id": "e7d105bb-6879-459c-8e4c-5bf721f1bc31",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791177"
+    },
+    {
+        "event_id": "03c834df-9214-4c1c-b0a8-373eb88e657a",
+        "user_id": "cfd7184a-d1dd-46a3-ac48-3a8f02252323",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791192"
+    },
+    {
+        "event_id": "522d2ed0-27f0-41e1-9cba-d66380fda380",
+        "user_id": "ada7aa2d-54c4-44b1-bdd3-734d02730cf9",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791208"
+    },
+    {
+        "event_id": "d226213c-ce36-4728-a142-0f90ca930901",
+        "user_id": "6d72cdb4-a6c1-4570-928d-f4995ace0b67",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791222"
+    },
+    {
+        "event_id": "89735a02-fb6f-4097-a71c-bfe2267e0c55",
+        "user_id": "cb725f64-8b10-4e7e-87c9-787dee21913e",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791237"
+    },
+    {
+        "event_id": "069855b5-3f45-4a6c-b04f-cb15224866d2",
+        "user_id": "9e6b07b1-e276-4bd6-937d-b4171536a349",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791251"
+    },
+    {
+        "event_id": "29673e1d-113c-4243-9ea5-96c8ae0e99f6",
+        "user_id": "f3bd6ab5-bdac-4488-9a07-44778276519b",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791266"
+    },
+    {
+        "event_id": "174b2bf2-fa30-4562-8511-a8272dd000dd",
+        "user_id": "abf1c965-b6c8-463e-bf82-2cb9e11177ab",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791280"
+    },
+    {
+        "event_id": "fe40ab88-9125-49e8-8212-e10b00922c46",
+        "user_id": "2495500e-f491-4b0f-bc66-43be42f41369",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791294"
+    },
+    {
+        "event_id": "7c4b279a-a692-4c28-80d6-1bd48fd551b6",
+        "user_id": "65e9d894-cde1-4a1a-af15-96502080f79a",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791308"
+    },
+    {
+        "event_id": "74fe1389-2864-452c-a058-aeeb83f30289",
+        "user_id": "f49ab0d0-1b3f-4a32-b24e-313060bb5b78",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791323"
+    },
+    {
+        "event_id": "ec0ae93b-fa81-4e00-9497-64355546cefc",
+        "user_id": "06eb13d6-15a4-4474-946a-37ca47d86c29",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791338"
+    },
+    {
+        "event_id": "74f38e5f-1dad-4060-b8c7-3943f84abca8",
+        "user_id": "03c67ce0-d02f-4ae3-8daf-9a9091fbeea2",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791352"
+    },
+    {
+        "event_id": "995d0728-84c4-4478-a298-7f6591362729",
+        "user_id": "b17b6cfe-e202-45fd-a8f9-efdea06719c7",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791367"
+    },
+    {
+        "event_id": "863079d8-62e1-4163-a688-ae6085b8bfa1",
+        "user_id": "1ba6b4f2-163c-45ad-b5fa-850e53965660",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791381"
+    },
+    {
+        "event_id": "8dca69a2-d2c4-4ce2-a044-045a3cd65051",
+        "user_id": "a47a8da3-ba78-4cde-853b-5cd293e6d16d",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791396"
+    },
+    {
+        "event_id": "82b1927e-637c-4e60-9a17-cc8d78b2f744",
+        "user_id": "2e83a2fb-2fe6-407f-94b3-0ef6016107b9",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791410"
+    },
+    {
+        "event_id": "7be83203-a2fd-4778-8f5e-fd18e3cd205e",
+        "user_id": "d55ca8e2-009a-44cf-81f6-432a67fb79d8",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791426"
+    },
+    {
+        "event_id": "a04e6af1-b3bb-4d24-a757-0669e502c0de",
+        "user_id": "9792cbcd-6320-4f40-b68e-bde40235cc9c",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791441"
+    },
+    {
+        "event_id": "5eb18979-7817-4dd8-9ec3-ba3e2710b5e3",
+        "user_id": "a5649e11-7cfd-4806-bd38-793d8929a41d",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791455"
+    },
+    {
+        "event_id": "f5a5d9da-1697-4fb2-ba07-53c7a2308bb2",
+        "user_id": "996c4e47-339a-462c-a8d3-2e10436ba4e6",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791470"
+    },
+    {
+        "event_id": "a9dacae7-43a6-463c-b3cd-b77222340ead",
+        "user_id": "a2dfc257-854f-464e-bd6d-c98bd890da8c",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791484"
+    },
+    {
+        "event_id": "45f3ff02-eab1-45e2-a4ae-29c1bf6d85fd",
+        "user_id": "6c099374-1f0f-487f-84e6-d20888676417",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791501"
+    },
+    {
+        "event_id": "aa69130a-27a7-4c7b-8594-51415549eb01",
+        "user_id": "459dce10-9bb4-42e1-8a27-c6379f4fce04",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791517"
+    },
+    {
+        "event_id": "a13936d5-d121-4490-9411-00de14bc425d",
+        "user_id": "0cadb24f-35ff-4100-95a1-34bfa0c7a356",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791532"
+    },
+    {
+        "event_id": "32366bdb-3401-4340-9bfb-6510b1b061d4",
+        "user_id": "036f72b8-62ac-4222-8f9a-9afa5e14e027",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791547"
+    },
+    {
+        "event_id": "b7d137ab-2466-44fc-8b4a-ffcdb9b4d414",
+        "user_id": "f96032da-dbbf-4368-9054-f086b216016c",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791561"
+    },
+    {
+        "event_id": "b4074603-52a0-4ed3-bab2-b45f5da3a003",
+        "user_id": "e1d20605-2f17-4487-a76a-60994534a116",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791577"
+    },
+    {
+        "event_id": "212158e4-83c4-478d-8f78-3836e94f26f9",
+        "user_id": "91c7d892-064a-4cae-b839-b662e11a7639",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791592"
+    },
+    {
+        "event_id": "6ebdf05a-ba55-4df1-8900-c21df90cce4e",
+        "user_id": "4060dc52-2068-424e-aee7-76044f9aa677",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791608"
+    },
+    {
+        "event_id": "680ba7eb-7f61-4f01-a378-23476ea321aa",
+        "user_id": "d676aeae-c58e-4173-9f3c-240b5ce8be37",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791622"
+    },
+    {
+        "event_id": "fa39330a-1148-430b-8f5f-d365b886fd81",
+        "user_id": "c77fc8e2-e8bb-4927-a9f4-4634155550f3",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791636"
+    },
+    {
+        "event_id": "bad6aba6-c6f3-4bc7-9763-267606284faa",
+        "user_id": "4623cb23-6ca6-4179-9889-6f1c35943a41",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791651"
+    },
+    {
+        "event_id": "ed15de71-4efb-4d89-9d18-7dd53ce468c2",
+        "user_id": "d94f5117-2fb1-4c66-87b7-3ee2eb112900",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791665"
+    },
+    {
+        "event_id": "a3c095ef-2ef0-4833-bfc5-db344f1eb59c",
+        "user_id": "acfaf451-bd08-40e9-aa9f-4b0edf5391f8",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791680"
+    },
+    {
+        "event_id": "134b59cd-02d8-4401-a5f1-85b713f99194",
+        "user_id": "d32dffa4-0b88-47f5-bcc8-84c9d4a15c2c",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791694"
+    },
+    {
+        "event_id": "aaf1bb9d-c1a3-4793-a992-cd6614ea5a22",
+        "user_id": "57e7e4e7-8c13-41da-a181-1bca3b5be256",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791708"
+    },
+    {
+        "event_id": "c323291b-5021-44fa-a925-839be606b608",
+        "user_id": "01480731-b44a-409a-83b9-7a4a744fa6cb",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791722"
+    },
+    {
+        "event_id": "0a45a1b7-285b-4c47-866c-99c92b0be396",
+        "user_id": "2207bf89-6c52-4c22-9034-cee64b04818e",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791737"
+    },
+    {
+        "event_id": "6984e19d-849c-4d59-abbd-76cefed18cc6",
+        "user_id": "eba0b0c1-542a-48e0-b857-8abaa077f83f",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791757"
+    },
+    {
+        "event_id": "34ebdda5-305a-411a-9516-39951e228359",
+        "user_id": "ed18bb69-1c38-4df3-92f6-089b5bf04dbe",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791780"
+    },
+    {
+        "event_id": "66c3f01a-cae2-4a20-bfbf-aa4c223bb196",
+        "user_id": "e34892b6-a8bb-4623-9093-511bed8fe858",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791794"
+    },
+    {
+        "event_id": "4c28589e-8413-46dd-971a-d13fd17131ec",
+        "user_id": "710f10eb-5d18-425b-af30-b0c67a18641b",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791812"
+    },
+    {
+        "event_id": "8ad5ce84-dce6-4bb8-86e1-9dc4ef7984b0",
+        "user_id": "4ca3b035-2ca9-448f-a14d-67d89831630d",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791826"
+    },
+    {
+        "event_id": "ed066345-eaaf-42b4-a424-7a26d98cbe26",
+        "user_id": "b38479f7-850a-4290-b685-ebed709d866b",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791843"
+    },
+    {
+        "event_id": "3bb63ff3-9817-4564-9a7e-03fb7526f938",
+        "user_id": "410c7762-7325-48a0-8a03-98794cd624bc",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791860"
+    },
+    {
+        "event_id": "3d4c76c9-ffa1-4e4e-bada-3cc0bf0dcd93",
+        "user_id": "c33068ad-a794-4496-9d80-b21c0465e09c",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791875"
+    },
+    {
+        "event_id": "b4952d14-4542-4fda-8cdf-ae432f659d58",
+        "user_id": "dd255f78-8cbc-492f-8782-52c95db05e86",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791889"
+    },
+    {
+        "event_id": "a65aa933-0881-440d-b1d4-c68eb531913e",
+        "user_id": "9b4099f2-9f52-41c4-a56b-32a22deeccba",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791904"
+    },
+    {
+        "event_id": "b6b1a3c4-0ec1-4ae5-9776-f7fbd7c6e0f2",
+        "user_id": "a1b14bbb-38a5-4012-b78d-6035259367d2",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791918"
+    },
+    {
+        "event_id": "95fe974a-6b20-406f-a512-d8e8ddf3945d",
+        "user_id": "d1f46ab6-2d31-411c-b2e4-f4578f156214",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.791933"
+    },
+    {
+        "event_id": "52f81650-a32c-4e57-84cf-eab7c0b7e626",
+        "user_id": "477f47f2-1ff5-4f58-b996-0a98b22f2e7d",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791947"
+    },
+    {
+        "event_id": "e27c6f0e-abb6-4610-ab0d-9a19ab924d77",
+        "user_id": "1ff24dc3-6122-4a6d-b842-6e2d7916720c",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791961"
+    },
+    {
+        "event_id": "e3bbe075-b0a2-4053-b09c-c32b89fa3fcb",
+        "user_id": "990e0972-bda1-4303-bb35-5c57115b4e82",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.791975"
+    },
+    {
+        "event_id": "ecad25bb-cda4-4cea-b850-31e208f800a0",
+        "user_id": "78522325-5127-43a9-8e9d-75a6b0efaf60",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.791990"
+    },
+    {
+        "event_id": "d21795e0-11c6-4e39-9066-7c64149c0a8d",
+        "user_id": "50d65147-f7d1-425d-a828-ed5fdb729109",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792004"
+    },
+    {
+        "event_id": "936faa30-d94f-476c-adcd-ffaa39e52b6a",
+        "user_id": "05d26472-57d7-4943-9749-97aa2d035628",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792018"
+    },
+    {
+        "event_id": "81ed4668-4a8e-4a29-8cc4-af0acd3a6b54",
+        "user_id": "386396cd-f4cc-446c-8607-a528e758a225",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792033"
+    },
+    {
+        "event_id": "e3b5952f-8933-4188-b871-52cd8e7a8e48",
+        "user_id": "9958447a-bd4c-433d-9bc9-69e1dd3bf417",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792047"
+    },
+    {
+        "event_id": "547df901-ac72-4c82-9580-14da2fa0bd4c",
+        "user_id": "478d2286-05ce-45a8-b762-89f0818687a4",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792061"
+    },
+    {
+        "event_id": "e01bce3e-278c-45d5-b9e9-bd9b92c1b679",
+        "user_id": "f83d17df-80ea-483e-9daf-3d7401adb5fc",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792075"
+    },
+    {
+        "event_id": "799abfe3-2059-46fc-90ed-1ecf1649ed61",
+        "user_id": "ec4bfeab-08d7-4065-be5d-668c28870eb9",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792090"
+    },
+    {
+        "event_id": "c1d34b44-e77a-47ca-a719-82a726532822",
+        "user_id": "b3f70df8-7ccb-42a8-9d8b-8722c360df40",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792104"
+    },
+    {
+        "event_id": "f884e6a9-adbc-4809-ad91-af90eb89e842",
+        "user_id": "d2d2ea89-e276-4649-a477-baf4aa64c5e1",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792118"
+    },
+    {
+        "event_id": "f0fbc72d-9b93-4036-8ba4-6871bc62d56b",
+        "user_id": "cbf72dd3-0872-4905-b25c-a50d35833998",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792132"
+    },
+    {
+        "event_id": "3d155ebd-9b52-4d8e-ab09-bfe9172d8e06",
+        "user_id": "b92cb642-2b88-4049-bbfc-8ba198ab51d0",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792149"
+    },
+    {
+        "event_id": "499c9c76-6b14-4150-b91c-2a025e6f45ed",
+        "user_id": "617b9add-9d74-45ae-bbe2-b3dc390f4b6c",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792163"
+    },
+    {
+        "event_id": "7e6bf842-e581-406a-b547-942318ea72d1",
+        "user_id": "359f32cf-2dfa-43ea-bd54-bbe9ce23fefb",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792177"
+    },
+    {
+        "event_id": "b20242f9-e364-40ab-a46c-f178ebca25ef",
+        "user_id": "47683c7f-2fa1-403f-9003-3aa12f67f781",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792193"
+    },
+    {
+        "event_id": "064150a3-2405-44ab-8305-4aaebab1c577",
+        "user_id": "afff1b52-ab58-48f5-9a0a-d6264de577e1",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792208"
+    },
+    {
+        "event_id": "b4b06d92-9ffe-4f40-b61f-e18e991f5efb",
+        "user_id": "2d7c78a9-a8be-401c-baa9-7578a30b10b5",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792222"
+    },
+    {
+        "event_id": "9efd1bca-eeda-4a47-9a7e-7088e733fe42",
+        "user_id": "e1a22c8c-3d08-4a61-9b5d-c247ed5458b8",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792236"
+    },
+    {
+        "event_id": "5bae1d80-3047-402c-a278-bb9ba46fd88b",
+        "user_id": "c24fd2c0-c5fa-40cb-abc8-a0d6d7fe4a9a",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792251"
+    },
+    {
+        "event_id": "bbd15b3a-fde1-4cec-aae5-a719bd89adf2",
+        "user_id": "8ec36f65-f321-46a3-abff-a11d21976942",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792265"
+    },
+    {
+        "event_id": "a468fa89-9881-452f-b9de-a9c424535aba",
+        "user_id": "cf7c4e3a-78de-48ec-9108-44fedcb43517",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792280"
+    },
+    {
+        "event_id": "f635a3a0-e596-4715-aaed-ebab8744d859",
+        "user_id": "75ac7c4e-dcad-4952-9ef4-4b67b2354d54",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792303"
+    },
+    {
+        "event_id": "74fdd6f7-68cc-4396-9182-e7798f6a7503",
+        "user_id": "8ec89dbc-12f1-474b-a8c9-53f6da51bc10",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792326"
+    },
+    {
+        "event_id": "2e8667f6-bfe8-4950-aef8-a2d1ab334133",
+        "user_id": "e3bcf09c-75ca-4e38-a52a-2de5c334c0b7",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792342"
+    },
+    {
+        "event_id": "9a3a6ec9-013c-4d50-8b9c-511dc59f20f9",
+        "user_id": "2edc1b8a-8ada-4a2d-90c9-b49d8227ec17",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792356"
+    },
+    {
+        "event_id": "c14aca45-0b01-4f5d-979a-12f37b207be5",
+        "user_id": "aa837100-dcf4-4dcc-9aef-944d03597395",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792374"
+    },
+    {
+        "event_id": "0fa70e41-ad37-448d-be9d-8b05fcfde76d",
+        "user_id": "1f636a4a-9906-4072-b6dc-598a67fde630",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792388"
+    },
+    {
+        "event_id": "34b5be3b-4144-4df4-89a0-cb5f805303c9",
+        "user_id": "e8940294-cc8a-48cd-8a77-75cfc3ae037a",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792403"
+    },
+    {
+        "event_id": "26bff3ea-d960-40c6-9dbd-0522d915f3c4",
+        "user_id": "e2d19ccf-8f25-42cc-804a-054c47c7d300",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792417"
+    },
+    {
+        "event_id": "97ae7843-d3c5-4240-903f-c938add4123e",
+        "user_id": "f3572a33-c0fa-498e-8215-53a8d5c0b569",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792431"
+    },
+    {
+        "event_id": "6998933f-2d73-4045-b946-c3fe7cd59dd9",
+        "user_id": "1dc9178e-b4ed-4c7d-977c-04989bb4bb86",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792445"
+    },
+    {
+        "event_id": "695e6933-97f5-4feb-8aac-6a6ad0bb2227",
+        "user_id": "1a44469a-d596-43b3-9976-6f58c20e2c1d",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792459"
+    },
+    {
+        "event_id": "c03de933-a8f0-49ac-a2f3-623aeadfaf19",
+        "user_id": "5d915ddc-c4bd-48b8-96ac-f8f330b15f6e",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792475"
+    },
+    {
+        "event_id": "95a68090-d558-4e77-a123-32a93b000463",
+        "user_id": "10ea0f85-dbc8-439b-adf8-40d12e9a5cdf",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792490"
+    },
+    {
+        "event_id": "9e414172-019a-4c91-8f44-989912d43bea",
+        "user_id": "5a9587a4-6189-4521-9b13-c485c62cd47b",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792504"
+    },
+    {
+        "event_id": "c3d2b328-a103-4185-9325-d9d4c278e609",
+        "user_id": "977e4c9a-5bf9-4204-a639-57e398641185",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792518"
+    },
+    {
+        "event_id": "ccb617bc-6ac2-4e78-9eee-73e7c5655232",
+        "user_id": "e0728f36-b629-49bb-9cdf-6e574497c730",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792532"
+    },
+    {
+        "event_id": "9b47191e-0d0c-4f39-8291-8fdaa0bfe34e",
+        "user_id": "4e6c770d-7091-4cfc-ae3a-bb1685ed0f7f",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792549"
+    },
+    {
+        "event_id": "1418df77-7242-4ece-a750-3f2d11f469bc",
+        "user_id": "c77b7394-0f4b-4045-87fd-c7bc8eff111f",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792563"
+    },
+    {
+        "event_id": "27539dd3-ee2b-4085-99c1-c8c901b34a5a",
+        "user_id": "acdfa530-5a3a-4d21-b2e9-c389cb334c29",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792578"
+    },
+    {
+        "event_id": "0e685f15-d6bf-4506-aec4-1accd5d29067",
+        "user_id": "4fcad3cb-3c23-4174-ba9b-143945b3e444",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792592"
+    },
+    {
+        "event_id": "5d510f65-5ea9-4f15-be71-4b4c0f96d866",
+        "user_id": "9065f025-30c2-4872-a254-b3ab1279d987",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792606"
+    },
+    {
+        "event_id": "f8f6e368-bc50-494d-af70-5e6413d7a7de",
+        "user_id": "b194a7ee-2761-48f5-8d63-5da7e64d455a",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792620"
+    },
+    {
+        "event_id": "48c7da48-4ba8-402c-bb1f-c9be03266466",
+        "user_id": "319074e3-5c44-48cf-b05f-7e611d4a878d",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792635"
+    },
+    {
+        "event_id": "5f986d0d-5c79-492a-b0f4-06d56d4dd99d",
+        "user_id": "f5110e23-7119-4df6-96e9-80e0a460a34a",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792649"
+    },
+    {
+        "event_id": "05719886-5b92-4453-98e0-4221e545d703",
+        "user_id": "aa8195de-258f-4d2f-90e8-93051dcc860c",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792663"
+    },
+    {
+        "event_id": "de1ab1d8-03ac-4eb0-96ac-13e60d652275",
+        "user_id": "c4ab50ef-1852-418d-9c6f-21f8c3a78634",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792677"
+    },
+    {
+        "event_id": "46f93205-86da-4e64-855a-7be31a1bb5b0",
+        "user_id": "90953a3b-a170-4fe9-b21a-e414d5a4825f",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792691"
+    },
+    {
+        "event_id": "b05c1683-f6a6-4fb8-b41a-1e48241491c3",
+        "user_id": "604a50f4-4517-4364-b12e-f9f2ed6359c0",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792705"
+    },
+    {
+        "event_id": "3b913174-e1b2-43a2-9d43-43e2c314a00e",
+        "user_id": "bdc90fd7-f442-42cc-bb55-68e8b1103193",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792719"
+    },
+    {
+        "event_id": "9b54ebf1-cc8c-4fa0-b625-94428f29a116",
+        "user_id": "6fefe743-73a0-44a8-bad2-f4123e635741",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792735"
+    },
+    {
+        "event_id": "734ace89-d68e-4be5-abc7-e0fb1cc9fa06",
+        "user_id": "4ef6905b-f766-47bf-a026-44cb28180241",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792759"
+    },
+    {
+        "event_id": "2bd50194-cc92-4f48-b4ba-0d93fa3b8a9c",
+        "user_id": "dc177794-c603-4f76-a0a6-1ea805344ac8",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792775"
+    },
+    {
+        "event_id": "a269533f-8502-4c8e-9866-cb795bf32e74",
+        "user_id": "855d1adc-6908-46f0-9a2a-6b3d375ee95c",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792793"
+    },
+    {
+        "event_id": "922d1c56-169b-4dfb-84e7-82adc575fa27",
+        "user_id": "60a9337c-acfd-4287-9c44-84d91ead1ea2",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792808"
+    },
+    {
+        "event_id": "bf98cf68-d544-4f01-a6b6-b072e4b799c9",
+        "user_id": "6b3fd307-003a-478f-b60e-0cab08cf0029",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792822"
+    },
+    {
+        "event_id": "eadeada4-460b-4f7a-8db2-f437e23fb78a",
+        "user_id": "535e6c52-bbe3-4461-9722-6737fb3928d5",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792836"
+    },
+    {
+        "event_id": "18f212dc-a966-41b8-8530-bfdb1127d5d7",
+        "user_id": "882c10b6-e20f-42c0-89da-9acb783f3d7f",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792850"
+    },
+    {
+        "event_id": "b64aa021-a057-40f5-8e7c-97611a7163da",
+        "user_id": "13bfdef8-6b99-4081-b522-cc0daab93795",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792865"
+    },
+    {
+        "event_id": "f96f0899-cc34-4df7-994b-bdc68dc6e493",
+        "user_id": "aee55cab-39a3-417b-9ee3-57ac148e7cdf",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792879"
+    },
+    {
+        "event_id": "d667a33e-bf04-4f1a-9c9b-9ecdb5475755",
+        "user_id": "48af93a4-b9ac-4f11-8b9b-70d01bd4606f",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792895"
+    },
+    {
+        "event_id": "1826700f-bf79-4806-8a66-52be9e6042a9",
+        "user_id": "34372e97-2952-44dc-9378-fc722bdca444",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792910"
+    },
+    {
+        "event_id": "a3b0fa9d-d436-43e8-8b61-d0d934a83e2c",
+        "user_id": "b1bf99ef-25ea-441c-add1-3cd1369b1e12",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792924"
+    },
+    {
+        "event_id": "a924c906-cd50-42ab-9217-273094cf5122",
+        "user_id": "4df172c8-3030-4284-a5d4-96c5b758de15",
+        "event_type": "purchase",
+        "timestamp": "2025-04-10T15:43:44.792938"
+    },
+    {
+        "event_id": "07c71fbb-2441-4893-b177-df2138046a04",
+        "user_id": "85bbbabe-85d4-497a-9e56-c62a01567b9a",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792953"
+    },
+    {
+        "event_id": "9803bd75-534e-4ae5-b349-3de63ac0cdc1",
+        "user_id": "4d69d386-bfc8-4c0f-9dca-444e838a8d8a",
+        "event_type": "view",
+        "timestamp": "2025-04-10T15:43:44.792967"
+    },
+    {
+        "event_id": "d850b692-c95f-460b-970c-eab7602beeae",
+        "user_id": "0f28b75d-7d25-4b6c-834c-a00a4635e738",
+        "event_type": "click",
+        "timestamp": "2025-04-10T15:43:44.792981"
+    }
+]

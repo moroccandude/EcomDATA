@@ -1,0 +1,30 @@
+[2025-04-10T23:01:02.992+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: minio_pipeline_dag.check_nifi_completion manual__2025-04-10T22:49:17.263474+00:00 [queued]>
+[2025-04-10T23:01:02.999+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: minio_pipeline_dag.check_nifi_completion manual__2025-04-10T22:49:17.263474+00:00 [queued]>
+[2025-04-10T23:01:02.999+0000] {taskinstance.py:1359} INFO - Starting attempt 2 of 3
+[2025-04-10T23:01:03.009+0000] {taskinstance.py:1380} INFO - Executing <Task(_PythonDecoratedOperator): check_nifi_completion> on 2025-04-10 22:49:17.263474+00:00
+[2025-04-10T23:01:03.014+0000] {standard_task_runner.py:57} INFO - Started process 633 to run task
+[2025-04-10T23:01:03.017+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'minio_pipeline_dag', 'check_nifi_completion', 'manual__2025-04-10T22:49:17.263474+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/app.py', '--cfg-path', '/tmp/tmpyh9e_yhg']
+[2025-04-10T23:01:03.019+0000] {standard_task_runner.py:85} INFO - Job 34: Subtask check_nifi_completion
+[2025-04-10T23:01:03.053+0000] {task_command.py:415} INFO - Running <TaskInstance: minio_pipeline_dag.check_nifi_completion manual__2025-04-10T22:49:17.263474+00:00 [running]> on host 8fadf2d6906b
+[2025-04-10T23:01:03.113+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_team' AIRFLOW_CTX_DAG_ID='minio_pipeline_dag' AIRFLOW_CTX_TASK_ID='check_nifi_completion' AIRFLOW_CTX_EXECUTION_DATE='2025-04-10T22:49:17.263474+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-10T22:49:17.263474+00:00'
+[2025-04-10T23:01:03.114+0000] {logging_mixin.py:151} INFO - Checking NiFi status at: https://nifi:8443/nifi-api/flow/process-groups/21c8e227-0196-1000-55b1-efeba7bbe5dc/status
+[2025-04-10T23:01:03.135+0000] {logging_mixin.py:151} INFO - Failed to check NiFi processor group status. Status code: 400
+[2025-04-10T23:01:03.135+0000] {logging_mixin.py:151} INFO - Response: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+<title>Error 400 Invalid SNI</title>
+</head>
+<body>
+<h2>HTTP ERROR 400 Invalid SNI</h2>
+<table>
+<tr><th>URI:</th><td>https://nifi:8443/nifi-api/flow/process-groups/21c8e227-0196-1000-55b1-efeba7bbe5dc/status</td></tr>
+<tr><th>STATUS:</th><td>400</td></tr>
+<tr><th>MESSAGE:</th><td>Invalid SNI</td></tr>
+</table>
+
+</body>
+</html>
+[2025-04-10T23:01:03.136+0000] {python.py:194} INFO - Done. Returned value was: False
+[2025-04-10T23:01:03.154+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=minio_pipeline_dag, task_id=check_nifi_completion, execution_date=20250410T224917, start_date=20250410T230102, end_date=20250410T230103
+[2025-04-10T23:01:03.189+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-04-10T23:01:03.203+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
